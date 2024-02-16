@@ -14,4 +14,4 @@ vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 vim.keymap.set('n', '<c-s>', ':w<CR>')
 vim.wo.number = true
-
+vim.o.fillchars = "vert: ,horiz: "
