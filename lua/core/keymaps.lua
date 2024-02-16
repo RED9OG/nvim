@@ -3,6 +3,7 @@ vim.api.nvim_set_keymap('i', 'jj', "<Esc>", { noremap = true, silent = true });
 vim.api.nvim_set_keymap('i', 'jk', "<Esc>", { noremap = true, silent = true });
 
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<cr>')
+vim.keymap.set('n', '<leader>q', ':wq<cr>')
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
