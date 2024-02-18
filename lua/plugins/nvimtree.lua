@@ -3,7 +3,9 @@ return {
     version = "*",
     lazy = false,
     dependencies = {
-      "nvim-tree/nvim-web-devicons",
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
     },
     config = function()
       require("nvim-tree").setup {
