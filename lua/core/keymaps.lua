@@ -8,13 +8,12 @@ vim.api.nvim_set_keymap('i', 'jk', "<Esc>", { noremap = true, silent = true });
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<cr>')
 
 vim.cmd("set expandtab")
-vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set autoindent")
 
-vim.keymap.set('n', '<A-i>', ':ToggleTerm size=1 direction=float<CR>')
+vim.keymap.set('n', '<A-i>', ':ToggleTerm size=60 direction=vertical<CR>')
 
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
