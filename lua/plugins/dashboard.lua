@@ -15,7 +15,9 @@ return {
 	[[ ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ]],
 	[[ ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ]],
 	[[                                                    ]],       }
-      }
+      },
+     packages = { enable = false },
+
     }
         end,
   dependencies = { {'nvim-tree/nvim-web-devicons'}}
