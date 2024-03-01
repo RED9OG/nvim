@@ -10,7 +10,6 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
-vim.cmd("set autoindent")
 vim.cmd("set laststatus=0")
 
 
@@ -28,7 +27,7 @@ vim.o.fillchars = "vert: ,horiz: "
 
 vimCommand = [[
 :NvimTreeClose
-:wq
+:q
 ]]
 
 
