@@ -1,4 +1,5 @@
 return {
+  {
     "navarasu/onedark.nvim",
       
         style = 'deep',
@@ -12,4 +13,17 @@ return {
             }
           } 
         end
+      },
+      {
+ "EdenEast/nightfox.nvim" 
+      },
+      {
+        {
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+}
+
+      }
 }
